@@ -1,0 +1,10 @@
+---
+title: blog
+author: shine
+date: '2018-10-05'
+slug: blog
+categories:
+  - R
+tags: []
+---
+
