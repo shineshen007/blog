@@ -1,7 +1,7 @@
 theme = "hugo-assembly"
 baseURL = "https://example.co"
 languageCode = "en-US"
-title = "Assembly"
+title = "ShineShen"
 
 # Metadata
 [params]
@@ -10,8 +10,8 @@ title = "Assembly"
 
 # banner section (from here on is for assembly theme)
 [params.banner]
-  title = "This is Assembly Template"
-  byline = "A free, CSS template ported over to a Hugo Theme."
+  title = "Welcome to my bolg"
+  byline = "Roses given, fragrance in hand."
 
 [params.actions] # CTAs
   enable = true
