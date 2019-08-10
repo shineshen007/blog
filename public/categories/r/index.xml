@@ -6,19 +6,10 @@
     <description>Recent content in R on ShineShen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>begining</title>
-      <link>/post/begining/</link>
-      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/begining/</guid>
-      <description> begining  </description>
-    </item>
     
     <item>
       <title>Hello R Markdown</title>

@@ -6,19 +6,10 @@
     <description>Recent content in Posts on ShineShen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>begining</title>
-      <link>/post/begining/</link>
-      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/begining/</guid>
-      <description> begining  </description>
-    </item>
     
     <item>
       <title>Hello R Markdown</title>
@@ -38,6 +29,16 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/post/2018-10-05-blog/</guid>
       <description>title: blogtest author: shine date: ‘2018-10-05’ slug: blogtest categories: - R tags: [] # Ubuntu ## 安装 工作需要，2017年开始接触Linux，先装了ubuntu，经过轮番折腾之后总结出：AMD显卡千万不要装ubuntu，因为驱动不支持。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2019-08-10-begining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-08-10-begining/</guid>
+      <description> title: begining author: shine date: ‘2019-08-10’ slug: begining categories: - R tags: [] — begining
+ Ⅰfirst blog   MetDNA需要准备的数据包括一级数据peak table(csv格式)，二级数据(mgf格式)和样品信息sample.info(csv格式)。点击下载正离子demo数据和负离子demo数据。   </description>
     </item>
     
   </channel>
