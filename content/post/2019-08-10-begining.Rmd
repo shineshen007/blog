@@ -1,0 +1,9 @@
+---
+title: begining
+author: shine
+date: '2019-08-10'
+slug: begining
+categories:
+  - R
+tags: []
+---
