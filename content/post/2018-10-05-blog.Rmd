@@ -6,5 +6,7 @@ slug: blogtest
 categories:
   - R
 tags: []
----工作需要，2017年开始接触Linux，先装了ubuntu，经过轮番折腾之后总结出：AMD显卡千万不要装ubuntu，因为驱动不支持。
+# Ubuntu
+## 安装
+  工作需要，2017年开始接触Linux，先装了ubuntu，经过轮番折腾之后总结出：AMD显卡千万不要装ubuntu，因为驱动不支持。
 
