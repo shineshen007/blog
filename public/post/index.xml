@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>test today</title>
-      <link>/post/test-today/</link>
+      <title>Build blog with hugo in R</title>
+      <link>/post/2019-08-12-test/</link>
       <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/test-today/</guid>
-      <description></description>
+      <guid>/post/2019-08-12-test/</guid>
+      <description>R Markdown This is an R Markdown document.
+ </description>
     </item>
     
     <item>

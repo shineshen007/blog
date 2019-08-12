@@ -62,9 +62,9 @@ pygmentsuseclasses         = true
   noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
 
   # slides
-  # if you want to use images in static/img/header-slides
-slidesDirPath  = "static/img/header-slides"  
-slidesDirPathURL = "img/header-slides"
+ slidesDirPath             = "themes/AllinOne/static/img/header-slides"  
+ slidesDirPathURL          = "img/header-slides"
+
 
   # highlighting 
   highlightjs              = true

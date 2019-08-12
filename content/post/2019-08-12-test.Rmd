@@ -1,10 +1,27 @@
 ---
-title: test today
-author: shine
-date: '2019-08-12'
-slug: test today
-categories:
-  - R
-tags: []
+title: "Build blog with hugo in R"
+author: "shine"
+date: 2019-08-12
+categories: ["R"]
+tags: ["R Markdown", "blog", "hugo"]
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# R Markdown
+
+This is an R Markdown document. 
+
+
+
+```{r cars}
+
+```
+
+
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+
+```
