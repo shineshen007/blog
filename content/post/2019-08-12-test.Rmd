@@ -12,7 +12,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 # R Markdown
 
-This is an R Markdown document. 
+This is an R Markdown document. hugo
 
 
 
