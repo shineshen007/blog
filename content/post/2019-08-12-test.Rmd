@@ -1,0 +1,10 @@
+---
+title: test
+author: shine
+date: '2019-08-12'
+slug: test
+categories:
+  - R
+tags: []
+---
+

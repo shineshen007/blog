@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ShineShen</title>
+    <title>Posts on Shenxia</title>
     <link>/post/</link>
-    <description>Recent content in Posts on ShineShen</description>
+    <description>Recent content in Posts on Shenxia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <language>zn-Hans</language>
+    <lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test</title>
+      <link>/post/test/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
@@ -19,26 +28,8 @@
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/2018-10-05-blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018-10-05-blog/</guid>
-      <description>title: blogtest author: shine date: ‘2018-10-05’ slug: blogtest categories: - R tags: [] # Ubuntu ## 安装 工作需要，2017年开始接触Linux，先装了ubuntu，经过轮番折腾之后总结出：AMD显卡千万不要装ubuntu，因为驱动不支持。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/2019-08-10-begining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-08-10-begining/</guid>
-      <description> title: begining author: shine date: ‘2019-08-10’ slug: begining categories: - R tags: [] — begining
- Ⅰfirst blog   MetDNA需要准备的数据包括一级数据peak table(csv格式)，二级数据(mgf格式)和样品信息sample.info(csv格式)。点击下载正离子demo数据和负离子demo数据。   </description>
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.:19.0 3rd Qu.: 56.00 ## Max. :25.0 Max. :120.00 fit &amp;lt;- lm(dist ~ speed, data = cars) fit ## ## Call: ## lm(formula = dist ~ speed, data = cars) ## ## Coefficients: ## (Intercept) speed ## -17.579 3.932  Including Plots You can also embed plots. See Figure 1 for example:
+par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;), col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;), init.angle = -50, border = NA )  Figure 1: A fancy pie chart.   </description>
     </item>
     
   </channel>

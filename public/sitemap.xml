@@ -3,9 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>/post/test/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,37 +13,30 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -56,12 +48,19 @@
   </url>
   
   <url>
-    <loc>/post/2018-10-05-blog/</loc>
+    <loc>/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/2019-08-10-begining/</loc>
+    <loc>/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
