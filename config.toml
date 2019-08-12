@@ -1,4 +1,4 @@
-baseURL                   = "https://shenxia.me"
+baseURL                   = "https://example.com/"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
@@ -8,7 +8,7 @@ publishdir                 = "public"
 enableEmoji                = true
 hasCJKLanguage             = true
 summaryLength              = 200
-Pag inate                   = 3
+
 
 theme                      = "AllinOne"
 title                      = "Shenxia"
