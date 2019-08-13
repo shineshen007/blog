@@ -53,9 +53,9 @@ pygmentsuseclasses         = true
   faviconfile              = "img/shen.jpg"               # from static/
   avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png 
   author                   = "Xia Shen"
-  description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
+  description              = ["Be myself.", "Love the wonderful world.", "流光容易把人抛 红了樱桃 绿了芭蕉"]           # appears in the site header when set to a non-empty string
   welcome_head             = "Hello, World!"
-  welcome_word             = "~ No Day But Today ~"
+  welcome_word             = "The greatest test of courage on earth is to bear defeat without losing confidence."
 
   latestpostscount         = 5                             # how many posts to display on the home page
   bloggroupby              = 'month'

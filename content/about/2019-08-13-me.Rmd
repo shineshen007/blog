@@ -1,22 +1,21 @@
 ---
-title: About Me
-author: shine
+title: "About Me"
+author: "shine"
 date: '2019-08-13'
 slug: me
-categories: [me]
 tags: []
+categories: me
 ---
 ```
 
 I am now a Ph.D. candidate student in SIBS, Chinese Academy of Sciences (CAS). 
-I am broadly interested in Metabolomics, Analytical chemistry, Biostatictics, 
-Systems biology and Bioinformatics.
+I am broadly interested in Metabolomics, Biostatictics, Systems biology and Bioinformatics.
 
 My research focuses on the development of bioinformatic algorithms and tools 
-for large-scale metabolomics as well as its application in discovering new 
+for analyzing metabolomics data as well as its application in discovering new 
 biomarkers related to human diseases. 
 
 
-
 ```
+
 
