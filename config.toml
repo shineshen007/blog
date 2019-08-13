@@ -1,4 +1,4 @@
-baseURL                   = "https://shineshen.netlify.com"
+baseURL                   = "https://shenxia.me"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
@@ -18,6 +18,8 @@ pygmentsuseclasses         = true
 
 [permalinks]
   blog                     = "blog/:year-:month/:slug/"
+  Moment                   = "Moment/:year-:month/:slug/"
+  About                    = "About/:year-:month/:slug/"
 
 
 [taxonomies]
@@ -31,19 +33,19 @@ pygmentsuseclasses         = true
     name                   = "Blog"
     weight                 = -120
     identifier             = "blog"
-    url                    = "shenxia.me/blog/"  
+    url                    = "post/"  
 
   [[menu.main]]
     name                   = "Moment"
     weight                 = -110
     identifier             = "moment"
-    url                    = "shenxia.me/moment/" 
+    url                    = "moment/" 
 
   [[menu.main]]
     name                   = "About"
     weight                 = -100
     identifier             = "about"
-    url                    = "shenxia.me/about/"  
+    url                    = "about/"  
 
  
 
@@ -67,7 +69,7 @@ pygmentsuseclasses         = true
 
 
   # highlighting 
-  highlightjs              = true
+  highlightjs              = true 
 
   # latex
   katex                    = true
