@@ -14,7 +14,7 @@ I am broadly interested in Metabolomics, Biostatictics, Systems biology and Bioi
 for analyzing metabolomics data as well as its application in discovering new 
 biomarkers related to human diseases. 
 
-![study_design](2019-08/me/study_design.jpg)
+![metabolomics](metabolomics.jpg)
 ```
 ```
 # Personal interest
