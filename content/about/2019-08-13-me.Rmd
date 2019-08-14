@@ -14,7 +14,7 @@ My research focuses on the development of bioinformatic algorithms and tools
 for analyzing metabolomics data as well as its application in discovering new 
 biomarkers related to human diseases. 
 
-![metabolomic workflow](study design.jpg)
+![study_design](study_design.jpg)
 ```
 ```
 # Personal interest
