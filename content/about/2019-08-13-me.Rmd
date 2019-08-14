@@ -2,22 +2,23 @@
 title: "About Me"
 author: "shine"
 date: '2019-08-13'
-slug: me
-tags: []
+slug: 
+tags: [me]
 categories: []
 ---
-# Academic interst
-  I am now a Ph.D. candidate student in SIBS, Chinese Academy of Sciences (CAS). 
+# Academic interest
+I am now a Ph.D. candidate student in SIBS, Chinese Academy of Sciences (CAS). 
 I am broadly interested in Metabolomics, Biostatictics, Systems biology and Bioinformatics.
 
-  My research focuses on the development of bioinformatic algorithms and tools 
+My research interest is the development of bioinformatic algorithms and tools 
 for analyzing metabolomics data as well as its application in discovering new 
 biomarkers related to human diseases. 
 
-![metabolomics](https://raw.githubusercontent.com/shineshen007/blog/master/content/about/2019-08/me/metabolomics.jpg)
-```
-```
+![metabolomics](https://raw.githubusercontent.com/shineshen007/blog/master/content/about/metabolomics.jpg)
+
 # Personal interest
-  breaking dance and badminton
-```
-```
+  Actually，I am a bboy who is Undertaking PhD study, I like breaking dance and play badminton sometimes。
+  
+  实际上我是个正在读博的bboy,但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，强身健体。现在每天“下班”都很累，锻炼的机会也好少了。偶尔去打打羽毛球，还经常没有场地可以玩。。。不知道毕业以后会不会好点呢，期待吧
+  
+

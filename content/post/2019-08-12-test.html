@@ -1,5 +1,5 @@
 ---
-title: "Build blog with hugo in R"
+title: "Build personal blog with hugo and rmarkdown"
 author: "shine"
 date: 2019-08-12
 categories: ["R"]
@@ -8,7 +8,35 @@ tags: ["R Markdown", "blog", "hugo"]
 
 
 
-<div id="r-markdown" class="section level1">
-<h1>R Markdown</h1>
-<p>This is an R Markdown document. hugo</p>
+<div class="section level2">
+<h2>缘起</h2>
+<p>最近根据网上的教程摸索搭建了自己个人网站，为了多熟悉一下markdown和宣传自己，哈哈哈。下面就把本次建站的过程做一个比较详细的记录，因为这个过程还是比较艰辛的，各种试错改bug，不过看到网站建起来就有一丢丢成就感埋没了这些艰辛。活着就是折腾</p>
+</div>
+<div class="section level2">
+<h2>1:本地建站</h2>
+<p>R和Rstudio以及相关包(blogdown)的安装这里就不赘述了。</p>
+<div id="rstudio-" class="section level3">
+<h3>rstudio 配置</h3>
+<p>安装好上述软件和包后，需要对rstudio进行简单配置：</p>
+<p>Tools -&gt; Global Options -&gt; Sweave -&gt; Weave Rnw files using:knitr</p>
+<p>Tools -&gt; Global Options -&gt; Sweave -&gt; Typeset LaTex into PDF using:XeLaTeX</p>
+</div>
+<div id="hugo" class="section level3">
+<h3>hugo安装与更新</h3>
+<p>blogdown::installhugo()</p>
+<p>blogdown::updatehugo()</p>
+<p>查看hugo版本,在之后的Netlify上要填写相同版本号才行</p>
+<p>blogdown::hugoversion()</p>
+<p>安装好这些R包，然后运行</p>
+<p>blogdown::newsite()</p>
+<p>没有报错,我们就可以进行下一步的操作了。</p>
+</div>
+</div>
+<div id="netlify" class="section level2">
+<h2>2:部署到Netlify</h2>
+</div>
+<div class="section level2">
+<h2>3:购买域名并连接</h2>
+<pre><code></code></pre>
+<pre><code></code></pre>
 </div>
