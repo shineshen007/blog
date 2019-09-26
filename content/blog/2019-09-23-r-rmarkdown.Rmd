@@ -1,11 +1,9 @@
 ---
 title: "Hello R Markdown"
-author: "Frida Gomam"
+author: "Shine"
 date: '2019-09-23'
-tags:
-- R Markdown
-- plot
-categories: R
+tags: ["R Markdown", "blog", "hugo"]
+categories: ["R"]
 ---
 
 # R Markdown
