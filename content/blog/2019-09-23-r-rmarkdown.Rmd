@@ -1,16 +1,23 @@
 ---
-title: "Hello R Markdown"
+title: "Correlation analysis in R"
 author: "Shine"
 date: '2019-09-23'
 tags: ["R Markdown", "blog", "hugo"]
 categories: ["R"]
 ---
 
-# R Markdown
+## Introduction to Correlation analysis
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+  In correlation analysis, we estimate a sample correlation coefficient, more specifically the Pearson Product Moment correlation coefficient. The sample correlation coefficient, denoted r,
+ranges between -1 and +1 and quantifies the direction and strength of the linear association between the two variables. 
 
-You can embed an R code chunk like this:
+  The correlation between two variables can be positive (i.e., higher levels of one variable are associated with higher levels of the other) or negative (i.e., higher levels of one variable are associated with lower levels of the other).
+  
+  The sign of the correlation coefficient indicates the direction of the association. The magnitude of the correlation coefficient indicates the strength of the association.
+  
+  For example, a correlation of r = 0.9 suggests a strong, positive association between two variables, whereas a correlation of r = -0.2 suggest a weak, negative association. A correlation close to zero suggests no linear association between two continuous variables.
+  
+From --Boston University School of Public Health
 
 # correlation plot
 ```{r mtcars}
