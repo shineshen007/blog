@@ -6,10 +6,24 @@
     <description>Recent content on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Correlation analysis in R</title>
+      <link>/blog/2019-09/correlation-analysis-in-r/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-09/correlation-analysis-in-r/</guid>
+      <description>Introduction to Correlation analysis In correlation analysis, we estimate a sample correlation coefficient, more specifically the Pearson Product Moment correlation coefficient. The sample correlation coefficient, denoted r, ranges between -1 and +1 and quantifies the direction and strength of the linear association between the two variables.
+The correlation between two variables can be positive (i.e., higher levels of one variable are associated with higher levels of the other) or negative (i.e., higher levels of one variable are associated with lower levels of the other).
+The sign of the correlation coefficient indicates the direction of the association. The magnitude of the correlation coefficient indicates the strength of the association.
+For example, a correlation of r = 0.9 suggests a strong, positive association between two variables, whereas a correlation of r = -0.2 suggest a weak, negative association. A correlation close to zero suggests no linear association between two continuous variables.
+From –Boston University School of Public Health
+ correlation plot head(mtcars) ## mpg cyl disp hp drat wt qsec vs am gear carb ## Mazda RX4 21.0 6 160 110 3.90 2.620 16.46 0 1 4 4 ## Mazda RX4 Wag 21.0 6 160 110 3.90 2.875 17.02 0 1 4 4 ## Datsun 710 22.</description>
+    </item>
     
     <item>
       <title>About Me</title>
@@ -26,7 +40,7 @@
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/moment/2019-08/moment/</guid>
-      <description></description>
+      <description> Somewhere the sun is shining  </description>
     </item>
     
     <item>
@@ -36,31 +50,6 @@
       
       <guid>/blog/2019-08/build-personal-blog-with-hugo-and-rmarkdown/</guid>
       <description>缘起 最近根据网上的教程摸索搭建了自己个人网站，为了多熟悉一下markdown和宣传自己，哈哈哈。下面就把本次建站的过程做一个比较详细的记录，因为这个过程还是比较艰辛的，各种试错改bug，不过看到网站建起来就有一丢丢成就感埋没了这些艰辛。活着就是折腾 1:本地建站 R和Rstudio以及相关包(blogdown)的安装这里就不赘述了。 rstudio 配置 安装好上述软件和包后，需要对rstudio进行简单配置： Tools -&amp;gt; Global Options</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/blog/2015-07/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/blog/2015-07/hello-r-markdown/</guid>
-      <description> R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.:19.0 3rd Qu.: 56.00 ## Max. :25.0 Max. :120.00 fit &amp;lt;- lm(dist ~ speed, data = cars) fit ## ## Call: ## lm(formula = dist ~ speed, data = cars) ## ## Coefficients: ## (Intercept) speed ## -17.579 3.932  Including Plots You can also embed plots. See Figure 1 for example:
-par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;), col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;), init.angle = -50, border = NA )  Figure 1: A fancy pie chart.   </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/1-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/1-01/</guid>
-      <description>About Me | Shenxia  @media (min-width: 800px) and (max-width: 850px) { .navbar:not(.top-nav-collapse) { background: #1C2331!important; } }    Xia Shen    Home  Blog   Moment   About Me                            Shenxia                 About Me Aug 13, 2019  One minute read   Academic interst I am now a Ph.D. candidate student in SIBS, Chinese Academy of Sciences (CAS). I am broadly interested in Metabolomics, Biostatictics, Systems biology and Bioinformatics.
-My research focuses on the development of bioinformatic algorithms and tools for analyzing metabolomics data as well as its application in discovering new biomarkers related to human diseases.
-metabolomic workflow
-   Personal interest breaking dance and badminton
-                      2016 - 2019 &amp;copy; | Theme AllinOne by Orianna            hljs.</description>
     </item>
     
   </channel>
