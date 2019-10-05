@@ -18,11 +18,10 @@
       
       <guid>/blog/2019-09/correlation-analysis-in-r/</guid>
       <description>Introduction to Correlation analysis In correlation analysis, we estimate a sample correlation coefficient, more specifically the Pearson Product Moment correlation coefficient. The sample correlation coefficient, denoted r, ranges between -1 and +1 and quantifies the direction and strength of the linear association between the two variables.
-The correlation between two variables can be positive (i.e., higher levels of one variable are associated with higher levels of the other) or negative (i.e., higher levels of one variable are associated with lower levels of the other).
-The sign of the correlation coefficient indicates the direction of the association. The magnitude of the correlation coefficient indicates the strength of the association.
+The correlation between two variables can be positive or negative.The sign of the correlation coefficient indicates the direction of the association. The magnitude of the correlation coefficient indicates the strength of the association.
 For example, a correlation of r = 0.9 suggests a strong, positive association between two variables, whereas a correlation of r = -0.2 suggest a weak, negative association. A correlation close to zero suggests no linear association between two continuous variables.
 From –Boston University School of Public Health
- correlation plot head(mtcars) ## mpg cyl disp hp drat wt qsec vs am gear carb ## Mazda RX4 21.0 6 160 110 3.90 2.620 16.46 0 1 4 4 ## Mazda RX4 Wag 21.0 6 160 110 3.90 2.875 17.02 0 1 4 4 ## Datsun 710 22.</description>
+ correlation plot head(mtcars) ## mpg cyl disp hp drat wt qsec vs am gear carb ## Mazda RX4 21.0 6 160 110 3.90 2.620 16.46 0 1 4 4 ## Mazda RX4 Wag 21.0 6 160 110 3.90 2.875 17.02 0 1 4 4 ## Datsun 710 22.8 4 108 93 3.85 2.320 18.61 1 1 4 1 ## Hornet 4 Drive 21.4 6 258 110 3.08 3.215 19.44 1 0 3 1 ## Hornet Sportabout 18.</description>
     </item>
     
     <item>
@@ -35,12 +34,12 @@ From –Boston University School of Public Health
     </item>
     
     <item>
-      <title>Moment</title>
+      <title>Somewhere the sun is shining</title>
       <link>/moment/2019-08/moment/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/moment/2019-08/moment/</guid>
-      <description> Somewhere the sun is shining  </description>
+      <description>Somewhere the sun is shining, and the clouds are not in sight, 某处阳光正好， 天空看不见白云飘摇。 Somewhere some’s laughing, and talking about what might. 某处有人在笑， 谈论着今后的生活。 What might have been another year, for us to spend together. 来年会是什么样子， 让我们一起度过。 What might have been another time, that I could cherish forever. 下次会是什麽样子， 让我能永远珍惜。 Somewhere two people laugh and joke, and carry on all day. 某处两人正在谈笑， 一整天笑弯了腰。 Talk about their past and future, In an extraordinary way. 谈论他们的过去和未来， 是多么非凡精彩。 They talk about the last few years, And how they made a bond. 他们谈论刚过去的岁月， 他们是如何</description>
     </item>
     
     <item>

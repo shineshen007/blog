@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +13,12 @@
   </url>
   
   <url>
-    <loc>/blog/2019-09/correlation-analysis-in-r/</loc>
+    <loc>/tags/correlation-analysis/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>/blog/2019-09/correlation-analysis-in-r/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,7 +28,7 @@
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,12 +53,12 @@
   </url>
   
   <url>
-    <loc>/tags/me/</loc>
+    <loc>/tags/life/</loc>
     <lastmod>2019-08-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/moment/2019-08/moment/</loc>
+    <loc>/tags/me/</loc>
     <lastmod>2019-08-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,7 +68,27 @@
   </url>
   
   <url>
+    <loc>/moment/2019-08/moment/</loc>
+    <lastmod>2019-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2019-08/build-personal-blog-with-hugo-and-rmarkdown/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2019-08-12T00:00:00+00:00</lastmod>
   </url>
   
