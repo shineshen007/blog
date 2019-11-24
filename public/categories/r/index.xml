@@ -6,10 +6,19 @@
     <description>Recent content in R on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac安装rJava</title>
+      <link>/blog/2019-11/mac-rjava/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-11/mac-rjava/</guid>
+      <description>起因 在Mac上安装了Anaconda之后发现library(rJava)失败了 盘它 先是各种环境配置，修改.bash_profile文件——————失败 卸载java，安装homebrew 安装方法很简单：终端输入/usr/bin/ruby -e &amp;quot;\((curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;，然后使用命令 brew</description>
+    </item>
     
     <item>
       <title>Correlation analysis in R</title>
