@@ -1,0 +1,44 @@
+---
+title: Upgrade-R-Version-on-Ubuntu
+author: Shine
+date: '2019-12-16'
+slug: upgrade-r-version-on-ubuntu
+categories:
+  - R
+tags:
+  - R
+---
+
+
+
+<div id="起因" class="section level2">
+<h2>起因</h2>
+<p>由于一直在用3.4.4版本，导致很多包无法使用了，于是只能硬着头皮去升级</p>
+</div>
+<div id="将新版本的源添加到source.list文件" class="section level2">
+<h2>1：将新版本的源添加到source.list文件</h2>
+<p>sudo vim /etc/apt/sources.list
+按i进入insert模式
+添加deb <a href="https://cloud.r-project.org/bin/linux/ubuntu" class="uri">https://cloud.r-project.org/bin/linux/ubuntu</a> xenial-cran35/到最后
+Esc退出编辑模式
+：wq退出Vim</p>
+</div>
+<div id="安装" class="section level2">
+<h2>2: 安装</h2>
+<p>sudo apt-get update
+sudo apt-get install r-base-core</p>
+</div>
+<div id="检查" class="section level2">
+<h2>3: 检查</h2>
+<p>此时已经升级到3.6.1了，但是无法安装包，提示不能打开Renviron文件，检查源文件发现已损坏
+于是复制之前版本的Renviron文件到此目录，并修改其中的版本信息，然后就可以正常安装包了</p>
+</div>
+<div id="迁移已安装的包" class="section level2">
+<h2>4：迁移已安装的包</h2>
+<p>通过.libPath函数设置包的位置，然后updatepackages(checkbuilt=T,ask=F)更新目录
+但是失败了，只好新建空目录，重新安装需要的包</p>
+</div>
+<div id="升级太难了" class="section level2">
+<h2>5:升级太难了。。。</h2>
+<p>啥时候能有像windows中的installr包</p>
+</div>

@@ -18,7 +18,8 @@ tags:
 
 ### 卸载java，安装homebrew
 
-安装方法很简单：终端输入/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"，然后使用命令 brew help 测试，Homebrew 是否正确安装。
+安装方法很简单：终端输入/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"，
+然后使用命令 brew help 测试，Homebrew 是否正确安装。
 如果提示：brew：command not found，说明需要进行环境配置：sudo vim .bash_profile
 在末尾添加如下代码：export PATH=/usr/local/bin:$PATH
 按下 i键 进入编辑模式；

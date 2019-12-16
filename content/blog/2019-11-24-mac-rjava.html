@@ -20,7 +20,7 @@ tags:
 <p>先是各种环境配置，修改.bash_profile文件——————失败</p>
 <div id="卸载java安装homebrew" class="section level3">
 <h3>卸载java，安装homebrew</h3>
-<p>安装方法很简单：终端输入/usr/bin/ruby -e &quot;<span class="math inline">\((curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;，然后使用命令 brew help 测试，Homebrew 是否正确安装。 如果提示：brew：command not found，说明需要进行环境配置：sudo vim .bash_profile 在末尾添加如下代码：export PATH=/usr/local/bin:\)</span>PATH
+<p>安装方法很简单：终端输入/usr/bin/ruby -e &quot;<span class="math inline">\((curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;， 然后使用命令 brew help 测试，Homebrew 是否正确安装。 如果提示：brew：command not found，说明需要进行环境配置：sudo vim .bash_profile 在末尾添加如下代码：export PATH=/usr/local/bin:\)</span>PATH
 按下 i键 进入编辑模式；
 编辑完成后，按 Esc键 退出编辑模式；输入 :wq 保存退出（ w 为 write 写入，q 为 quit 退出）;
 再次刷新环境变量，输入：source .bash_profile

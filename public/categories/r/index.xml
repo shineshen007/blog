@@ -6,10 +6,19 @@
     <description>Recent content in R on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Upgrade-R-Version-on-Ubuntu</title>
+      <link>/blog/2019-12/upgrade-r-version-on-ubuntu/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-12/upgrade-r-version-on-ubuntu/</guid>
+      <description>起因 由于一直在用3.4.4版本，导致很多包无法使用了，于是只能硬着头皮去升级 1：将新版本的源添加到source.list文件 sudo vim /etc/apt/sources.list 按i进入insert模式 添加deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/到最后 Esc退出编辑模式 ：wq退出Vim 2: 安装 sudo apt-get update sudo apt-get install r-base-core 3: 检查 此时已经升级到3.6.1了，但是无法安装包，提示不能打开Renviron文件，检查源文件发现已损坏 于是复制之前版本的Renviron文件到此</description>
+    </item>
     
     <item>
       <title>Mac安装rJava</title>
@@ -17,7 +26,7 @@
       <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/2019-11/mac-rjava/</guid>
-      <description>起因 在Mac上安装了Anaconda之后发现library(rJava)失败了 盘它 先是各种环境配置，修改.bash_profile文件——————失败 卸载java，安装homebrew 安装方法很简单：终端输入/usr/bin/ruby -e &amp;quot;\((curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;，然后使用命令 brew</description>
+      <description>起因 在Mac上安装了Anaconda之后发现library(rJava)失败了 盘它 先是各种环境配置，修改.bash_profile文件——————失败 卸载java，安装homebrew 安装方法很简单：终端输入/usr/bin/ruby -e &amp;quot;\((curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;， 然后使用命令 brew</description>
     </item>
     
     <item>
