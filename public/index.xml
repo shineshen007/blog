@@ -17,7 +17,7 @@
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/blog/2020-02/ubuntu%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/</guid>
-      <description>2017年开始接触Linux，选择了ubuntu练手，轮番折腾之后发现AMD显卡对ubuntu很不友好，因为驱动不支持。 装系统很简单，在windows系统下下载UItralSO软件制作启动优盘，制作完成后即可优盘安装ubuntu。装虚拟机常用virtualbox和VMWARE两款软件。 安装成功后最好马上修改软件源，换成国内源，便于更新和安装软件。 系统美化,可以安装tweaktools，还有很多好看</description>
+      <description>2017年突然有一次win10自己删除文件，删了我好多文件，吓得不轻，赶紧找了Diskgenius恢复了一下，还好都找回来了，吓得不轻。于是开始琢磨Linux，选择了ubuntu练手，轮番折腾之后发现AMD显卡对ubuntu很不友好，因为驱动不支持，后来从别的电脑上下了一个Nvidia显卡，把ubuntu作为物理机主力系统，win10虚拟机作为补充，为了那些只有Windows版本的软件。 装系统很简</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ From –Boston University School of Public Health
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/2019-08/about-me/</guid>
-      <description>Academic interest I am now a Ph.D. candidate student in SIBS, Chinese Academy of Sciences (CAS). I am broadly interested in Metabolomics, Biostatictics, Systems biology and Bioinformatics. My research interest is the development of bioinformatic algorithms and tools for analyzing metabolomics data as well as its application in discovering new biomarkers related to human diseases. Personal interest Actually，I am a bboy who is undertaking PhD study, I like breaking dance and play badminton sometimes。 实际上我是个正在读博的bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，强身健体。现在每天“下班”都很累，锻炼的机会也好少了。偶尔去打打羽毛球，还经常</description>
+      <description>Academic interest I am a Ph.D. candidate in SIBS, Chinese Academy of Sciences (CAS) now. I am interested in Metabolomics, machine learning algorithms, Systems biology and Bioinformatics. Utilizing various machine learning algorithms and tools for analyzing metabolomics and other omics data to explain the mechanism of disease and find disease related biomarkers. Personal interest Actually，I am a bboy who is undertaking PhD study, I like breaking dance and playing badminton sometimes。 实际上我是个正在读博的bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，还强身健体。现在每天“下班”都很累，锻炼的机会也好少了。偶尔去打打羽毛球，还经常没有</description>
     </item>
     
     <item>

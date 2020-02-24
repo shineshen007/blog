@@ -7,17 +7,15 @@ tags: [me]
 categories: []
 ---
 # Academic interest
-I am now a Ph.D. candidate student in SIBS, Chinese Academy of Sciences (CAS). 
-I am broadly interested in Metabolomics, Biostatictics, Systems biology and Bioinformatics.
+I am a Ph.D. candidate in SIBS, Chinese Academy of Sciences (CAS) now. 
+I am interested in Metabolomics, machine learning algorithms, Systems biology and Bioinformatics.
 
-My research interest is the development of bioinformatic algorithms and tools 
-for analyzing metabolomics data as well as its application in discovering new 
-biomarkers related to human diseases. 
+Utilizing various machine learning algorithms and tools for analyzing metabolomics and other omics data to explain the mechanism of disease and find disease related biomarkers. 
 
 
 # Personal interest
-  Actually，I am a bboy who is undertaking PhD study, I like breaking dance and play badminton sometimes。
+  Actually，I am a bboy who is undertaking PhD study, I like breaking dance and playing badminton sometimes。
   
-  实际上我是个正在读博的bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，强身健体。现在每天“下班”都很累，锻炼的机会也好少了。偶尔去打打羽毛球，还经常没有场地可以玩。。。不知道毕业以后会不会好点呢，期待吧
+  实际上我是个正在读博的bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，还强身健体。现在每天“下班”都很累，锻炼的机会也好少了。偶尔去打打羽毛球，还经常没有场地可以玩。。。不知道毕业以后会不会好点呢，期待吧!
   
 

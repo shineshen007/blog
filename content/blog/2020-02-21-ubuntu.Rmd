@@ -6,32 +6,41 @@ tags: [ubuntu]
 categories: [ubuntu]
 ---
 
-  2017年开始接触Linux，选择了ubuntu练手，轮番折腾之后发现AMD显卡对ubuntu很不友好，因为驱动不支持。
+  2017年突然有一次win10自己删除文件，删了我好多文件，吓得不轻，赶紧找了Diskgenius恢复了一下，还好都找回来了，吓得不轻。于是开始琢磨Linux，选择了ubuntu练手，轮番折腾之后发现AMD显卡对ubuntu很不友好，因为驱动不支持，后来从别的电脑上下了一个Nvidia显卡，把ubuntu作为物理机主力系统，win10虚拟机作为补充，为了那些只有Windows版本的软件。
 
-  装系统很简单，在windows系统下下载UItralSO软件制作启动优盘，制作完成后即可优盘安装ubuntu。装虚拟机常用virtualbox和VMWARE两款软件。
+  装系统很简单，在windows系统下下载UItralSO软件制作启动优盘，制作完成后即可优盘安装ubuntu。安装过程比安装Windows简单很多，唯一注意的是硬盘分区,最开始我嫌麻烦没有分区，直接一整块大硬盘，后来系统死机了，必须重装系统，但又不能只格式化一个分区从而不影响文件，从而引发了只能从PE进去把所有数据拷贝出来再全盘格式化装系统的惨剧，哎，思虑不足啊。装虚拟机常用virtualbox和VMWARE两款软件。
 
   安装成功后最好马上修改软件源，换成国内源，便于更新和安装软件。
   系统美化,可以安装tweaktools，还有很多好看的主题和icons。
   
   然后就是设置root，终端输入
+  
   ```
   sudo passwd root
   ```
   设置root密码。
   安装gdebi用于安装各种软件，
+  
   ```
-  sudo apt-get gdebi
+  sudo apt-get install gdebi
   ```
   安装搜狗输入法，然后配置：设置-文本输入-勾掉显示当前输入法-添加-sogou，
-  安装Java， 
+  安装Java
+  
   ```
   java -version 
   sudo apt install default-jre
   sudo apt install default-jdk
   ```
-  安装cytoscape,有时候点击下载cytoscape无法下载文件，而是打开源码网页，此时可以在终端，wget http://chianti.ucsd.edu/cytoscape-3.6.1/Cytoscape_3_6_1_unix.sh，下载安装。
+  安装cytoscape,有时候点击下载cytoscape无法下载文件，而是打开源码网页，此时可以在终端
+  
+  ```
+  wget http://chianti.ucsd.edu/cytoscape-3.6.1/Cytoscape_3_6_1_unix.sh
+  sudo gdebi cytoscape
+  ```
 
   安装R和RStudio，可用代码安装R
+  
   ```
   #添加keys
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
