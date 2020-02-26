@@ -1,0 +1,90 @@
+---
+title: Circular colum plot
+author: Shine
+date: '2020-02-26'
+slug: circular-colum-plot
+categories:
+  - R
+tags:
+  - R
+---
+
+
+
+<pre class="r"><code>data=data.frame(individual=c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;,&#39;h&#39;,&#39;i&#39;,&#39;j&#39;,&#39;k&#39;,&#39;l&#39;,&#39;m&#39;,&#39;n&#39;,&#39;o&#39;),
+                value =c(0.001897,
+                         0.0035427,
+                         0.0040915,
+                         0.014953,
+                         0.022925,
+                         0.026393,
+                         0.0345,
+                         0.041492,
+                         0.0003807,
+                         0.0024592,
+                         0.0054992,
+                         0.02936,
+                         0.02936,
+                         0.034247,
+                         0.041408
+                ),
+                group =c(&quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;B&quot;, &quot;B&quot;, &quot;B&quot;, &quot;C&quot;, &quot;C&quot;, &quot;C&quot;, &quot;C&quot;))
+
+
+data$value &lt;- data$value*1000
+
+empty_bar &lt;- 3
+to_add &lt;- data.frame( matrix(NA, empty_bar*nlevels(data$group), ncol(data)) )
+colnames(to_add) &lt;- colnames(data)
+to_add$group &lt;- rep(levels(data$group), each=empty_bar)
+data &lt;- rbind(data, to_add)
+data &lt;- data %&gt;% arrange(group)
+data$id &lt;- seq(1, nrow(data))
+
+label_data &lt;- data
+number_of_bar &lt;- nrow(label_data)
+angle &lt;- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_data$hjust &lt;- ifelse( angle &lt; -90, 1, 0)
+label_data$angle &lt;- ifelse(angle &lt; -90, angle+180, angle)
+
+# prepare a data frame for base lines
+base_data &lt;- data %&gt;%
+  group_by(group) %&gt;%
+  summarize(start=min(id), end=max(id) - empty_bar) %&gt;%
+  rowwise() %&gt;%
+  mutate(title=mean(c(start, end)))
+
+# prepare a data frame for grid (scales)
+grid_data &lt;- base_data
+grid_data$end &lt;- grid_data$end[ c( nrow(grid_data), 1:nrow(grid_data)-1)] + 1
+grid_data$start &lt;- grid_data$start - 1
+grid_data &lt;- grid_data[-1,]
+
+# Make the plot
+ggplot2::ggplot(data, aes(x=as.factor(id), y=value, fill=individual))+   
+  geom_bar(aes(x=as.factor(id), y=value, fill=individual), stat=&quot;identity&quot;)+
+  geom_segment(data=grid_data, aes(x = end, y = 10, xend = start, yend = 10), colour = &quot;grey&quot;, alpha=1, size=0.3 , inherit.aes = FALSE ) +
+  geom_segment(data=grid_data, aes(x = end, y = 5, xend = start, yend = 5), colour = &quot;grey&quot;, alpha=1, size=0.3 , inherit.aes = FALSE ) +
+  
+  # Add text showing the value of each 100/75/50/25 lines
+  annotate(&quot;text&quot;, x = rep(max(data$id),2), y = c(5, 10), label = c(&quot;5&quot;, &quot;10&quot;) ,color=&quot;grey&quot;,
+           size= 2.5 , angle=0, fontface=&quot;bold&quot;, hjust=1) +
+  ylim(-100,120) +
+  theme_minimal() +
+  theme(legend.position = &#39;none&#39;,
+        #legend.text = element_text(size = 14),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        panel.grid = element_blank(),
+        plot.margin = unit(rep(-1,4), &quot;cm&quot;)
+  ) +
+  coord_polar() +
+  geom_text(data=label_data, aes(x=id, y=value, label=individual, hjust=hjust), color=&quot;black&quot;,
+            fontface=&quot;bold&quot;,alpha=0.6, size=5, angle= label_data$angle, inherit.aes = FALSE ) +
+  
+  # Add base line information
+  geom_segment(data=base_data, aes(x = start, y = -5, xend = end, yend = -5), colour = &quot;black&quot;, alpha=0.8, size=0.6 , inherit.aes = FALSE )  +
+  geom_text(data=base_data, aes(x = title, y = -18, label=group), hjust=c(1,1,0), colour = &quot;black&quot;, alpha=0.8, size=4, fontface=&quot;bold&quot;, inherit.aes = FALSE)</code></pre>
+<pre><code>## Warning: Removed 9 rows containing missing values (position_stack).</code></pre>
+<pre><code>## Warning: Removed 9 rows containing missing values (geom_text).</code></pre>
+<p><img src="/blog/2020-02-26-circular-colum-plot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
