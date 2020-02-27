@@ -9,27 +9,12 @@ tags:
   - R
 ---
 ```{r}
+#构造data
 data=data.frame(individual=c('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o'),
-                value =c(0.001897,
-                         0.0035427,
-                         0.0040915,
-                         0.014953,
-                         0.022925,
-                         0.026393,
-                         0.0345,
-                         0.041492,
-                         0.0003807,
-                         0.0024592,
-                         0.0054992,
-                         0.02936,
-                         0.02936,
-                         0.034247,
-                         0.041408
-                ),
+                value =c(102,89,97,56,145,192,67,
+                         78,121, 78,88,130,45,98,
+                         32),
                 group =c("A", "A", "A", "A", "A", "A", "A", "A", "B", "B", "B", "C", "C", "C", "C"))
-
-
-data$value <- data$value*1000
 
 empty_bar <- 3
 to_add <- data.frame( matrix(NA, empty_bar*nlevels(data$group), ncol(data)) )
@@ -41,7 +26,7 @@ data$id <- seq(1, nrow(data))
 
 label_data <- data
 number_of_bar <- nrow(label_data)
-angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar     
 label_data$hjust <- ifelse( angle < -90, 1, 0)
 label_data$angle <- ifelse(angle < -90, angle+180, angle)
 

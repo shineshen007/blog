@@ -11,27 +11,12 @@ tags:
 
 
 
-<pre class="r"><code>data=data.frame(individual=c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;,&#39;h&#39;,&#39;i&#39;,&#39;j&#39;,&#39;k&#39;,&#39;l&#39;,&#39;m&#39;,&#39;n&#39;,&#39;o&#39;),
-                value =c(0.001897,
-                         0.0035427,
-                         0.0040915,
-                         0.014953,
-                         0.022925,
-                         0.026393,
-                         0.0345,
-                         0.041492,
-                         0.0003807,
-                         0.0024592,
-                         0.0054992,
-                         0.02936,
-                         0.02936,
-                         0.034247,
-                         0.041408
-                ),
+<pre class="r"><code>#构造data
+data=data.frame(individual=c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;,&#39;h&#39;,&#39;i&#39;,&#39;j&#39;,&#39;k&#39;,&#39;l&#39;,&#39;m&#39;,&#39;n&#39;,&#39;o&#39;),
+                value =c(102,89,97,56,145,192,67,
+                         78,121, 78,88,130,45,98,
+                         32),
                 group =c(&quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;B&quot;, &quot;B&quot;, &quot;B&quot;, &quot;C&quot;, &quot;C&quot;, &quot;C&quot;, &quot;C&quot;))
-
-
-data$value &lt;- data$value*1000
 
 empty_bar &lt;- 3
 to_add &lt;- data.frame( matrix(NA, empty_bar*nlevels(data$group), ncol(data)) )
@@ -43,7 +28,7 @@ data$id &lt;- seq(1, nrow(data))
 
 label_data &lt;- data
 number_of_bar &lt;- nrow(label_data)
-angle &lt;- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+angle &lt;- 90 - 360 * (label_data$id-0.5) /number_of_bar     
 label_data$hjust &lt;- ifelse( angle &lt; -90, 1, 0)
 label_data$angle &lt;- ifelse(angle &lt; -90, angle+180, angle)
 
@@ -85,6 +70,6 @@ ggplot2::ggplot(data, aes(x=as.factor(id), y=value, fill=individual))+
   # Add base line information
   geom_segment(data=base_data, aes(x = start, y = -5, xend = end, yend = -5), colour = &quot;black&quot;, alpha=0.8, size=0.6 , inherit.aes = FALSE )  +
   geom_text(data=base_data, aes(x = title, y = -18, label=group), hjust=c(1,1,0), colour = &quot;black&quot;, alpha=0.8, size=4, fontface=&quot;bold&quot;, inherit.aes = FALSE)</code></pre>
-<pre><code>## Warning: Removed 9 rows containing missing values (position_stack).</code></pre>
-<pre><code>## Warning: Removed 9 rows containing missing values (geom_text).</code></pre>
+<pre><code>## Warning: Removed 13 rows containing missing values (position_stack).</code></pre>
+<pre><code>## Warning: Removed 13 rows containing missing values (geom_text).</code></pre>
 <p><img src="/blog/2020-02-26-circular-colum-plot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
