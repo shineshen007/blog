@@ -9,11 +9,11 @@ tags:
   - R
 ---
 ```{r}
+#cite from:https://www.r-graph-gallery.com/297-circular-barplot-with-groups.html
 #构造data
+options(warn=-1) 
 data=data.frame(individual=c('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o'),
-                value =c(102,89,97,56,145,192,67,
-                         78,121, 78,88,130,45,98,
-                         32),
+                value =c(102,89,97,56,145,192,67,78,121, 78,88,130,45,98, 32),
                 group =c("A", "A", "A", "A", "A", "A", "A", "A", "B", "B", "B", "C", "C", "C", "C"))
 
 empty_bar <- 3

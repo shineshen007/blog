@@ -11,11 +11,11 @@ tags:
 
 
 
-<pre class="r"><code>#构造data
+<pre class="r"><code>#cite from:https://www.r-graph-gallery.com/297-circular-barplot-with-groups.html
+#构造data
+options(warn=-1) 
 data=data.frame(individual=c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;,&#39;h&#39;,&#39;i&#39;,&#39;j&#39;,&#39;k&#39;,&#39;l&#39;,&#39;m&#39;,&#39;n&#39;,&#39;o&#39;),
-                value =c(102,89,97,56,145,192,67,
-                         78,121, 78,88,130,45,98,
-                         32),
+                value =c(102,89,97,56,145,192,67,78,121, 78,88,130,45,98, 32),
                 group =c(&quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;B&quot;, &quot;B&quot;, &quot;B&quot;, &quot;C&quot;, &quot;C&quot;, &quot;C&quot;, &quot;C&quot;))
 
 empty_bar &lt;- 3
@@ -70,6 +70,4 @@ ggplot2::ggplot(data, aes(x=as.factor(id), y=value, fill=individual))+
   # Add base line information
   geom_segment(data=base_data, aes(x = start, y = -5, xend = end, yend = -5), colour = &quot;black&quot;, alpha=0.8, size=0.6 , inherit.aes = FALSE )  +
   geom_text(data=base_data, aes(x = title, y = -18, label=group), hjust=c(1,1,0), colour = &quot;black&quot;, alpha=0.8, size=4, fontface=&quot;bold&quot;, inherit.aes = FALSE)</code></pre>
-<pre><code>## Warning: Removed 13 rows containing missing values (position_stack).</code></pre>
-<pre><code>## Warning: Removed 13 rows containing missing values (geom_text).</code></pre>
 <p><img src="/blog/2020-02-26-circular-colum-plot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
