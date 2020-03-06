@@ -11,25 +11,18 @@ tags:
 
 
 
-<pre class="r"><code>library(reshape2)</code></pre>
-<pre><code>## 
-## 载入程辑包：&#39;reshape2&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:tidyr&#39;:
-## 
-##     smiths</code></pre>
 <pre class="r"><code>library(ggthemes)
-#data 
+suppressMessages(library(reshape2))
+#construct data 
 raw_data &lt;- data.frame(kind=c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;),
                         A=1:7,B=2:8,C=3:9,D=4:10,E=5:11,F=6:12,G=7:13)
+#convert data
 data &lt;- melt(raw_data,id.vars=&quot;kind&quot;,variable.name=&quot;group&quot;,value.name=&quot;value&quot;)
-
-col=c(&quot;#8DD3C7&quot;, &quot;#FFFFB3&quot;, &quot;#BEBADA&quot;, &quot;#FB8072&quot;, &quot;#80B1D3&quot;, 
-      &quot;#FDB462&quot;, &quot;#B3DE69&quot;)
-      
+#plot      
 ggplot(data,aes(group,value,fill=kind))+
-  geom_col(position=&quot;stack&quot;)+
-  scale_fill_manual(values = col,
-                    limits = c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;))+
-  theme(axis.text.x = element_text(angle = 45,size = 12),legend.position = &#39;bottom&#39;,
+  geom_col(position=&quot;stack&quot;)+#column
+  scale_fill_manual(values = c(&quot;#8DD3C7&quot;, &quot;#FFFFB3&quot;, &quot;#BEBADA&quot;, &quot;#FB8072&quot;, &quot;#80B1D3&quot;,  &quot;#FDB462&quot;, &quot;#B3DE69&quot;),#self_difine color
+                    limits = c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;,&#39;d&#39;,&#39;e&#39;,&#39;f&#39;,&#39;g&#39;))+#control the order of variables
+  theme(axis.text.x = element_text(angle = 0,size = 12),legend.position = &#39;bottom&#39;,
         panel.background = ggplot2::element_blank())</code></pre>
 <p><img src="/blog/2020-03-03-_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>

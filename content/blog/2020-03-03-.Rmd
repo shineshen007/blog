@@ -9,21 +9,20 @@ tags:
   - R
 ---
 ```{r}
-library(reshape2)
+
 library(ggthemes)
-#data 
+suppressMessages(library(reshape2))
+#construct data 
 raw_data <- data.frame(kind=c('a','b','c','d','e','f','g'),
                         A=1:7,B=2:8,C=3:9,D=4:10,E=5:11,F=6:12,G=7:13)
+#convert data
 data <- melt(raw_data,id.vars="kind",variable.name="group",value.name="value")
-
-col=c("#8DD3C7", "#FFFFB3", "#BEBADA", "#FB8072", "#80B1D3", 
-      "#FDB462", "#B3DE69")
-      
+#plot      
 ggplot(data,aes(group,value,fill=kind))+
-  geom_col(position="stack")+
-  scale_fill_manual(values = col,
-                    limits = c('a','b','c','d','e','f','g'))+
-  theme(axis.text.x = element_text(angle = 45,size = 12),legend.position = 'bottom',
+  geom_col(position="stack")+#column
+  scale_fill_manual(values = c("#8DD3C7", "#FFFFB3", "#BEBADA", "#FB8072", "#80B1D3",  "#FDB462", "#B3DE69"),#self_difine color
+                    limits = c('a','b','c','d','e','f','g'))+#control the order of variables
+  theme(axis.text.x = element_text(angle = 0,size = 12),legend.position = 'bottom',
         panel.background = ggplot2::element_blank())
         
 ```
