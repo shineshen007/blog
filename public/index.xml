@@ -6,10 +6,19 @@
     <description>Recent content on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NormAE：基于pytorch的深度对抗学习算法用于矫正batch effect</title>
+      <link>/blog/2020-04/normae/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020-04/normae/</guid>
+      <description>背景 NormAE是由哈尔滨医科大学发表在Analytic Chemistry上的一篇用来去除代谢组学批次效应的深度学习算法。 数据准备 data data sample.info info 环境搭建 安装python，以及python上的若干包，列举如下： python（3.6.8） pytorch（1.2.0）深度学习框架，用于进行深度学习模型的设计、搭建和训练，其有GPU版本和CPU版本，安装GPU版本将提供额外的GPU加速服务，但需要有Nvidia</description>
+    </item>
     
     <item>
       <title>Someone like you</title>
