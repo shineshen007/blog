@@ -13,10 +13,10 @@ NormAE是由哈尔滨医科大学发表在Analytic Chemistry上的一篇用来�
 
 ## 数据准备
 # data
-![data](NormAE/data.png)  
+![data](https://github.com/shineshen007/blog/blob/master/content/blog/NormAE/data.png?raw=true)  
 
 # sample.info
-![info](NormAE/info.png)  
+![info](https://github.com/shineshen007/blog/blob/master/content/blog/NormAE/info.png?raw=true)  
 
 
 ## 环境搭建
