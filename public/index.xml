@@ -6,10 +6,19 @@
     <description>Recent content on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown基础知识</title>
+      <link>/blog/2020-04/markdown/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020-04/markdown/</guid>
+      <description>缘由 经常写博客需要用到markdown，记录一些语法，方便查看。 标题 # 这是一级标题 ## 这是二级标题 ### 这是三级标题 #### 这是四级标题 以此类推,#符号后面要空一格 换行 在句尾空格 两个字节，另起一行书写 字体 **这是加粗的文字** *这是倾斜的文字*` ***这是斜体加粗的文字*** ~~这是加删除线的文字~~ 图片 ![图片alt](图片地址（网页地址比较稳定） &amp;#39;&amp;#39;图片title&amp;#39;&amp;#39;) 图片</description>
+    </item>
     
     <item>
       <title>NormAE：基于pytorch的深度对抗学习算法用于矫正batch effect</title>
