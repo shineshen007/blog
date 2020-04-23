@@ -63,7 +63,9 @@ train.csv（记录了训练时的loss的文件）<br />
 config.json（记录了本次训练时使用的超参数和配置）<br />
 early_stop_info.json（记录了训练时间和其他的信息）</p>
 <p>如果您想使用visdom提供相应的实时可视化，可以重新打开一个命令行或终端窗口，使用<br />
-<code>python -m visdom.server</code> 来打开visdom服务</p>
+<code>python -m visdom.server</code> 来打开visdom服务,然后在浏览器中输入http://localhost:8097<br />
+即可打开visdom界面,如果没有安装visdom，可以在终端输入
+<code>pip install visdom -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
 </div>
 <div id="移除批次效应" class="section level2">
 <h2>移除批次效应</h2>

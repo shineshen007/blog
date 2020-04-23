@@ -49,7 +49,9 @@ NormAE是由哈尔滨医科大学发表在Analytic Chemistry上的一篇用来�
              early_stop_info.json（记录了训练时间和其他的信息）  
              
   如果您想使用visdom提供相应的实时可视化，可以重新打开一个命令行或终端窗口，使用  
-  ` python -m visdom.server `  来打开visdom服务
+  ` python -m visdom.server `  来打开visdom服务,然后在浏览器中输入http://localhost:8097  
+  即可打开visdom界面,如果没有安装visdom，可以在终端输入
+  `pip install visdom -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 ## 移除批次效应
 键入以下终端命令  
