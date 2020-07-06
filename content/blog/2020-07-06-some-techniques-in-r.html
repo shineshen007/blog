@@ -1,0 +1,27 @@
+---
+title: Convenient code in R
+author: Shine Shen
+date: '2020-07-06'
+slug: some-techniques-in-r
+categories:
+  - R
+tags: []
+---
+
+
+
+<pre><code>#返回上层目录
+setwd(&#39;..//&#39;)
+#open working directory
+system(sprintf(&quot;open %s&quot;, shQuote(getwd())))
+
+#导入剪贴板数据
+data &lt;- read.table(pipe(&quot;pbpaste&quot;), sep=&quot;\t&quot;, header=T)
+#写入剪切板
+library(clipr)
+write_clip(name)
+#编辑初始加载文件，可以预先加载常用安装包
+file.edit(&#39;~/.Rprofile&#39;)
+#选择镜像
+options(BioC_mirror=&quot;https://mirrors.tuna.tsinghua.edu.cn/bioconductor&quot;)
+utils::setRepositories(ind=1:2)</code></pre>

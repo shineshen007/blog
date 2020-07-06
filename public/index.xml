@@ -6,10 +6,19 @@
     <description>Recent content on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Convenient code in R</title>
+      <link>/blog/2020-07/some-techniques-in-r/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020-07/some-techniques-in-r/</guid>
+      <description>#返回上层目录 setwd(&amp;#39;..//&amp;#39;) #open working directory system(sprintf(&amp;quot;open %s&amp;quot;, shQuote(getwd()))) #导入剪贴板数据 data &amp;lt;- read.table(pipe(&amp;quot;pbpaste&amp;quot;), sep=&amp;quot;\t&amp;quot;, header=T) #写入剪切板 library(clipr) write_clip(name) #编辑初始加载文件，可以预先加载常用安装包 file.edit(&amp;#39;~/.Rprofile&amp;#39;) #选择镜像 options(BioC_mirror=&amp;quot;https://mirrors.tuna.tsinghua.edu.cn/bioconductor&amp;quot;) utils::setRepositories(ind=1:2)</description>
+    </item>
     
     <item>
       <title>Markdown基础知识</title>
