@@ -6,18 +6,18 @@
     <description>Recent content in Posts on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mac安装rJava</title>
-      <link>/post/mac-rjava/</link>
-      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      <title>每日文献-Metabolomics in Cancer Research and Emerging Applications in Clinical Oncology</title>
+      <link>/post/metabolomics-in-cancer-research-and-emerging-applications-in-clinical-oncology/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/mac-rjava/</guid>
-      <description>##起因 在Mac上安装了Anaconda之后发现library(rJava)失败了 ##盘它 ###先是各种环境配置，修改.bash_profile文件——————失败 ###卸载java，安装homebrew 安装方法很简单：终端输入/usr/bin/ruby -e &amp;quot;\((curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quo</description>
+      <guid>/post/metabolomics-in-cancer-research-and-emerging-applications-in-clinical-oncology/</guid>
+      <description>#期刊：CA: A Cancer Journal for Clinicians #Impact factor:292.278 #First published: 13 May 2021 文章主页A</description>
     </item>
     
   </channel>

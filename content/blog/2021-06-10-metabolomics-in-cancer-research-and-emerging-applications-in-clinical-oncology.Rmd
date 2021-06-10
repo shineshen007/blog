@@ -1,0 +1,21 @@
+---
+title: 每日文献-Metabolomics in Cancer Research and Emerging Applications in Clinical
+  Oncology
+author: Shine Shen
+date: '2021-06-10'
+slug: metabolomics-in-cancer-research-and-emerging-applications-in-clinical-oncology
+categories:
+  - literature
+tags:
+  - metabolomics
+---
+### 期刊  
+CA: A Cancer Journal for Clinicians 
+
+### Impact factor  
+292.278 
+
+### First published  
+13 May 2021 
+
+文章[网址](https://doi.org/10.3322/caac.21670)

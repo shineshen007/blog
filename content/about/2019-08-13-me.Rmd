@@ -8,13 +8,13 @@ categories: []
 ---
 # Academic interest
 I am now a Postdoc in Fudan University. 
-The research interests of my are Metabolomics, Systems biology and HCC biology on multi-omics view.
+The research interests of mine are Metabolomics, Systems biology and HCC biology on multi-omics view.
 
 Utilizing various machine learning algorithms and tools for analyzing metabolomics and other omics data to explain the mechanism of HCC and find related biomarkers to diagnosis and predict clinical events. 
 
 
 # Personal interest
-  Actually，I am/was a bboy and playing badminton sometimes.  
-  实际上我还是个bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，还强身健体。
+  Actually，I am/was a bboy, but the main activity of mine is badminton now.  
+  实际上我还是个bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，还强身健体，希望可以找到复旦的街舞组织。
   
 

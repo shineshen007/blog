@@ -6,10 +6,28 @@
     <description>Recent content on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>每日文献-Metabolomics in Cancer Research and Emerging Applications in Clinical Oncology</title>
+      <link>/blog/2021-06/metabolomics-in-cancer-research-and-emerging-applications-in-clinical-oncology/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021-06/metabolomics-in-cancer-research-and-emerging-applications-in-clinical-oncology/</guid>
+      <description>期刊 CA: A Cancer Journal for Clinicians Impact factor 292.278 First published 13 May 2021 文章网址</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/2021-06/about-me/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/2021-06/about-me/</guid>
+      <description>Academic interest I am now a Postdoc in Fudan University. The research interests of mine are Metabolomics, Systems biology and HCC biology on multi-omics view. Utilizing various machine learning algorithms and tools for analyzing metabolomics and other omics data to explain the mechanism of HCC and find related biomarkers to diagnosis and predict clinical events. Personal interest Actually，I am/was a bboy, but the main activity of mine is badminton now. 实际上我还是个bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，还强身健体，希望可以找到复旦的街舞组织。</description>
+    </item>
     
     <item>
       <title>Convenient code in R</title>
@@ -112,15 +130,6 @@ The correlation between two variables can be positive or negative.The sign of th
 For example, a correlation of r = 0.9 suggests a strong, positive association between two variables, whereas a correlation of r = -0.2 suggest a weak, negative association. A correlation close to zero suggests no linear association between two continuous variables.
 From –Boston University School of Public Health
  correlation plot head(mtcars) ## mpg cyl disp hp drat wt qsec vs am gear carb ## Mazda RX4 21.0 6 160 110 3.90 2.620 16.46 0 1 4 4 ## Mazda RX4 Wag 21.0 6 160 110 3.90 2.875 17.02 0 1 4 4 ## Datsun 710 22.8 4 108 93 3.85 2.320 18.61 1 1 4 1 ## Hornet 4 Drive 21.4 6 258 110 3.08 3.215 19.44 1 0 3 1 ## Hornet Sportabout 18.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about/2019-08/about-me/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/2019-08/about-me/</guid>
-      <description>Academic interest I am a Ph.D. candidate in SIBS, Chinese Academy of Sciences (CAS) now. I am interested in Metabolomics, machine learning algorithms, Systems biology and Bioinformatics. Utilizing various machine learning algorithms and tools for analyzing metabolomics and other omics data to explain the mechanism of disease and find disease related biomarkers. Personal interest Actually，I am a bboy who is undertaking PhD study, I like breaking dance and playing badminton sometimes. 实际上我是个正在读博的bboy，但是现在很久都跳不上一次舞了，各种原因吧，心里很想像大学时代那样，每天晚上都去跳舞，完了洗个澡，特别舒服，还强身健体。现在每天“下班”都很累，锻炼的机会也好少了。偶尔去打打羽毛球，还经常没有场地可以玩。。。不</description>
     </item>
     
     <item>
