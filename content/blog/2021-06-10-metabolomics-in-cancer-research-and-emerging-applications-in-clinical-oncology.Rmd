@@ -25,11 +25,25 @@ CA: A Cancer Journal for Clinicians
 2. biomarkers for cancer screening, diagnosis, and monitoring
 3. cancer biology and therapeutics research
 
+Cancer and metabolism interact at many levels. 
+
 ![Figure.1](https://acsjournals.onlinelibrary.wiley.com/cms/asset/bd5975e2-6274-4141-881a-78bc4f050896/caac21670-fig-0001-m.jpg)
+
+In concept, metabolomics stands apart from the other - omics, in that it provides a functional readout of metabolic processes and thus is a direct assessment of phenotype (Fig. 2).
+The term ***epimetabolites*** has been used to describe a subset of metabolites that function as active biomarkers and are involved in diverse biological functions, including epigenetic regulation, tumorigenesis, cancer cell invasion, cancer stem cell pluripotency, insulin sensitivity, and other cellular processes.
 
 ![Figure.2](https://acsjournals.onlinelibrary.wiley.com/cms/asset/947488e4-4110-4c20-9a91-df7d695a5803/caac21670-fig-0002-m.jpg)
 
+The optimal metabolomics workflow depends on source material and application.
+
 ![Figure.3](https://acsjournals.onlinelibrary.wiley.com/cms/asset/ebcb9320-4b8c-4ad3-9198-d06a626a5002/caac21670-fig-0003-m.jpg)
 
+### Metabolomics in cancer research
+1. Identifying Cancer Risk Factors
+2. Identifying Biomarkers for Cancer Screening, Diagnosis, and Monitoring
+3. Discovery of Targeted Therapies That Interfere With Cancer Metabolism
+
+### Conclusion
+We propose that, currently, the best use of metabolomics in research is in combination with other omics approaches and hypothesis-driven inves- tigation to discover functionally and diagnostically relevant alterations in cancer cells. 
 
 
