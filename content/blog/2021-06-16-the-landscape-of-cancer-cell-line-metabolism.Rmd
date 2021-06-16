@@ -58,6 +58,6 @@ asparaginase can suppress the growth of defined subsets of cancer cell lines wit
 Kynurenine is produced from catabolism of tryptophan and can exert immuno-suppressive effects through the aryl hydrocarbon receptor (AHR), leading to suppressed effector T cell proliferation and enhanced regulatory T cell generation.  
  These data suggest that cell lines with higher intracellular kynurenine concentrations are also actively secreting it into the extracellular space.suggesting that kynurenine does little to accelerate cell proliferation in vitro.
  
- ### Discussion    
+### Dicussion      
  Gene hypermethylation events probably influence baseline metabolite abundance via reductions in key enzymes mediating metabolite degradation (for example, SLC25A20 with long-chain acylcarnitines) or synthesis (PYCR1 with proline, GPT2 with ala- nine). 
  
