@@ -20,7 +20,7 @@ Nature Medicine
 文章[网址](https://doi.org/10.1038/s41591-019-0404-8)
 
 ### Abstract 
-Despite considerable efforts to identify cancer metabolic alterations that might unveil druggable vulnerabilities, systematic characterizations of metabolism as it relates to functional genomic features and associated dependencies remain uncommon. To further understand the metabolic diversity of cancer, **we profiled 225 metabolites in 928 cell lines from more than 20 cancer types in the Cancer Cell Line Encyclopedia (CCLE) using liquid chromatography–mass spectrometry (LC-MS).** This resource enables unbiased association analysis linking the cancer metabolome to genetic alterations, epigenetic features and gene dependencies. Additionally, by screening barcoded cell lines, we demonstrated that aberrant ASNS hypermethylation sensi- tizes subsets of gastric and hepatic cancers to asparaginase therapy. Finally, our analysis revealed distinct synthesis and secre- tion patterns of kynurenine, an immune-suppressive metabolite, in model cancer cell lines. Together, these findings and related methodology provide comprehensive resources that will help clarify the landscape of cancer metabolism.  
+Despite considerable efforts to identify cancer metabolic alterations that might unveil druggable vulnerabilities, systematic characterizations of metabolism as it relates to functional genomic features and associated dependencies remain uncommon. To further understand the metabolic diversity of cancer, **we profiled 225 metabolites in 928 cell lines from more than 20 cancer types in the Cancer Cell Line Encyclopedia (CCLE) using liquid chromatography–mass spectrometry (LC-MS).** This resource enables unbiased association analysis linking the cancer metabolome to genetic alterations, epigenetic features and gene dependencies. Additionally, by screening barcoded cell lines, we demonstrated that aberrant ASNS hypermethylation sensitizes subsets of gastric and hepatic cancers to asparaginase therapy. Finally, our analysis revealed distinct synthesis and secretion patterns of kynurenine, an immune-suppressive metabolite, in model cancer cell lines. Together, these findings and related methodology provide comprehensive resources that will help clarify the landscape of cancer metabolism.  
 
 ### Profiling metabolites from cultured CCLE cell lines
 928 cancer cell lines from 20 major cancer types were cultured in vitro for metabolomic profiling of 124 polar and 101 lipid species using MRM.  
@@ -29,7 +29,7 @@ These data suggest that lineage distinctions exist in model cancer cell lines an
 ![Figure.1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-019-0404-8/MediaObjects/41591_2019_404_Fig1_HTML.png?as=webp)
 
 ### Interrogating metabolite associations with genetic features  
-To summarize, this resource enables unbiased association analy- sis between metabolites and various genetic features and confirms previous findings linking oncogenic changes (for example, IDH1, KEAP1, ME2) to aberrant metabolite levels.
+To summarize, this resource enables unbiased association analysis between metabolites and various genetic features and confirms previous findings linking oncogenic changes (for example, IDH1, KEAP1, ME2) to aberrant metabolite levels.
 
 ![Figure.2](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-019-0404-8/MediaObjects/41591_2019_404_Fig2_HTML.png?as=webp)
 
@@ -39,7 +39,7 @@ DNA hypermethylation appears to influence metabolite levels by suppressing certa
 ![Figure.3](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-019-0404-8/MediaObjects/41591_2019_404_Fig3_HTML.png?as=webp)
 
 ### Metabolite-dependency association analysis  
-This unbiased metabolite-dependency association analysis shows that the dissimilar metabolic phenotypes observed in cancer cell lines are paired with distinct gene depen- dencies and, therefore, potential therapeutic targets.
+This unbiased metabolite-dependency association analysis shows that the dissimilar metabolic phenotypes observed in cancer cell lines are paired with distinct gene dependencies and, therefore, potential therapeutic targets.
 Together, these unbiased association analyses suggest that cancer cell lines cultured in vitro have significant lipidomic differences that can be selectively targeted based on PUFA classifications.
 
 ![Figure.4](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-019-0404-8/MediaObjects/41591_2019_404_Fig4_HTML.png?as=webp)
@@ -50,14 +50,14 @@ DNA hypermethylation influences dependency on nutrient availability as exemplifi
 ![Figure.5](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-019-0404-8/MediaObjects/41591_2019_404_Fig5_HTML.png?as=webp)
 
 ### Expanding the therapeutic use of asparaginase  
-asparaginase can sup- press the growth of defined subsets of cancer cell lines with loss of ASNS expression both in vitro and in vivo.
+asparaginase can suppress the growth of defined subsets of cancer cell lines with loss of ASNS expression both in vitro and in vivo.
 
 ![Figure.6](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-019-0404-8/MediaObjects/41591_2019_404_Fig6_HTML.png?as=webp)
 
 ### The landscape of kynurenine metabolism in the CCLE  
-Kynurenine is produced from catabolism of tryptophan and can exert immuno- suppressive effects through the aryl hydrocarbon receptor (AHR), leading to suppressed effector T cell proliferation and enhanced reg- ulatory T cell generation.  
+Kynurenine is produced from catabolism of tryptophan and can exert immuno-suppressive effects through the aryl hydrocarbon receptor (AHR), leading to suppressed effector T cell proliferation and enhanced regulatory T cell generation.  
  These data suggest that cell lines with higher intracellular kynurenine concentrations are also actively secreting it into the extracellular space.suggesting that kynurenine does little to accelerate cell proliferation in vitro.
  
  ### Discussion    
- gene hypermethylation events probably influence baseline metabolite abundance via reductions in key enzymes mediating metabolite degradation (for example, SLC25A20 with long-chain acylcarnitines) or synthesis (PYCR1 with proline, GPT2 with ala- nine). 
+ Gene hypermethylation events probably influence baseline metabolite abundance via reductions in key enzymes mediating metabolite degradation (for example, SLC25A20 with long-chain acylcarnitines) or synthesis (PYCR1 with proline, GPT2 with ala- nine). 
  
