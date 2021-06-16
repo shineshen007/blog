@@ -6,10 +6,19 @@
     <description>Recent content on Xia Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The landscape of cancer cell line metabolism</title>
+      <link>/blog/2021-06/the-landscape-of-cancer-cell-line-metabolism/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021-06/the-landscape-of-cancer-cell-line-metabolism/</guid>
+      <description>期刊 Nature Medicine Impact factor 36 First published May 20210 文章网址 Abstract Despite considerable efforts to identify cancer metabolic alterations that might unveil druggable vulnerabilities, systematic characterizations of metabolism as it relates to functional genomic features and associated dependencies remain uncommon. To further understand the metabolic diversity of cancer, we profiled 225 metabolites in 928 cell lines from more than 20 cancer types in the Cancer Cell Line Encyclopedia (CCLE) using liquid chromatography–mass spectrometry (LC-MS). This resource enables unbiased association analysis linking the cancer metabolome to genetic alterations, epigenetic features and gene dependencies. Additionally, by screening barcoded cell lines, we demonstrated that aberrant ASNS hypermethylation sensi- tizes subsets of gastric and hepatic cancers to asparaginase therapy. Finally, our analysis revealed distinct synthesis and secre- tion patterns of kynurenine, an immune-suppressive metabolite, in model cancer cell lines. Together, these findings and related methodology provide comprehensive resources that will help clarify the landscape of cancer metabolism. ### Profiling metabolites from cultured CCLE cell lines 928 cancer cell lines from 20 major cancer types were cultured in vitro for metabolomic profiling</description>
+    </item>
     
     <item>
       <title>每日文献-Metabolomics in Cancer Research and Emerging Applications in Clinical Oncology</title>
